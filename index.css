@@ -15,7 +15,7 @@
 }
 
 .navbar {
-    background-color:#d2691e;
+   /* background-color:#d2691e;*/
     position: fixed;
     width: 100%;
     padding: 15px 0;
@@ -28,6 +28,9 @@
     color: #fff;
 
 }
+.navbar .logo a span {
+  color: #800000;  
+}
 .navbar .maxwidth {
     display: flex;
     align-items: center;
@@ -36,6 +39,10 @@
 .navbar .menu li {
     list-style: none;
     display: inline;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+   color:#800000; 
 }
 .navbar .menu li a {
     color:#fff;
