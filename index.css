@@ -16,7 +16,7 @@
 
 .navbar {
    /* background-color:#d2691e;*/
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 15px 0;
     
@@ -55,11 +55,12 @@
 /*Styling Home Page*/
 .home {
     display: flex;
-    background-image:linear-gradient(#f4a460,#d2b486); ;
+    background-image:linear-gradient(#f4a460,#d2b486);
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Poppins', sans-serif;
+    
 }
 .home .maxwidth {
     margin: auto 0px auto 40px;
@@ -85,3 +86,26 @@ img {
 .home .home-content .text-3 span {
     color: #800000;
 }
+h2{
+    text-align: center;
+}
+#body {
+    background-image:linear-gradient(#f4a460,#d2b486);
+    line-height: 300%;
+    
+}
+#form {
+    margin-left: 5%;
+}
+.imgform {
+    position: absolute;
+    bottom: -320px;
+    right: 5%;
+    border-radius: 6px;
+   /* border:5px #000;*/
+    box-shadow:2px 2px 5px #800000,-2px -2px 5px #800000;
+    opacity: 0.9;
+    
+    
+}
+

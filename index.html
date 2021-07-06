@@ -1,37 +1,79 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <nav class="navbar">
         <div class="maxwidth">
             <div class="logo"><a href="#">Sneaker<span>Hub</span></a></div>
             <ul class="menu">
-                 <li><a href="#">Home</a></li>
-                 <li><a href="#">About</a></li>
-                 <li><a href="#">Create Account</a></li>
-                 <li><a href="#">Contact Us</a></li>
-                 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Create Account</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+
             </ul>
         </div>
     </nav>
     <!--home section-->
     <section class="home" id="home">
         <div class="maxwidth">
-              <div class="home-content">
-                 <img src="./Assets/undraw.svg" alt="" height="400px">
-                   <div class="text-1">Hello,Welcome to</div>
-                   <div class="text-2">Tess</div>
-                   <div class="text-3"><span>Sneaker</span>World</div>
-               </div>
-           
+            <div class="home-content">
+                <img src="./Assets/undraw.svg" alt="" height="400px">
+                <div class="text-1">Hello,Welcome to</div>
+                <div class="text-2">Tess</div>
+                <div class="text-3"><span>Sneaker</span>World</div>
+            </div>
+
         </div>
     </section>
-    
+    <div id="body">
+        <h2>Create Account</h2>
+
+        <div class="create-account">
+            <div id="form">
+                <form action="">
+                    <h4> Fill the form below</h4>
+                    <div class="form1">
+                         <label for="name">Username</label> <input type="text">
+                         
+                         <label for="email">Your Email</label>
+                         <input type="text">
+                         <label for="password">Password</label>
+                         <input type="text">
+                    </div>
+                </form>
+                <h4>What is your Gender?</h4>
+                <label for="gender">Select Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="rather not say">Rather not say</option>
+                </select>
+                <h4>What is your Shoe Size?</h4>
+                <input type="radio" id="30-34" name="size" value="30-34">
+                <label for="size">30-34</label>
+                <input type="radio" id="30-34" name="size" value="35-39">
+                <label for="size">35-39</label>
+                <input type="radio" id="30-34" name="size" value="40-44">
+                <label for="size">40-44</label>
+
+            </div>
+            <div class="formimg">
+                 <img src="./Assets/sneaker2.jpeg" alt="" height="200px" class="imgform">
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
