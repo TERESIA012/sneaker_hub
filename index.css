@@ -138,3 +138,48 @@ margin-left: 6%;
     margin-right: 14%;
     margin-left: 20%;
 }
+#footer3 {
+    border-radius: 5px;
+    border: #000;
+}
+.contact-us {
+    background-color: #cd853f;
+    opacity: 0.8;
+    line-height: 200%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+#cl {
+    background-color: white;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    margin-right: 20%;
+    margin-left: 50%;
+    bottom: -95px;
+
+}
+.footer2 {
+    bottom: -40px;
+    background-color:#cd853f ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    
+
+}
+@media screen and (max-width:600px) {
+   html{
+       width: 100%;
+   } 
+    
+}
+@media screen and (max-width:600px) {
+    #sneakers{
+        width: 100%;
+        flex-direction: column;
+    } 
+     
+ }
