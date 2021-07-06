@@ -66,7 +66,7 @@
     margin: auto 0px auto 40px;
 }
 
-img {
+.undraw {
     margin: auto 0px auto 600px;
     position: absolute;
     bottom :10px;
@@ -89,9 +89,13 @@ img {
 h2{
     text-align: center;
 }
+/*body2 styling*/
 #body {
     background-image:linear-gradient(#f4a460,#d2b486);
     line-height: 300%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
     
 }
 #form {
@@ -107,5 +111,30 @@ h2{
     opacity: 0.9;
     
     
+}/* body2 styling*/
+.body2{
+    font-family: 'Poppins', sans-serif;
+    background-image:linear-gradient(#f4a460,#d2b486); 
+    height: 600px; 
 }
-
+p{
+    
+    bottom: -50px;
+    line-height: 200%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.sneakers1 {
+   display: flex; 
+align-items: center;
+justify-content: space-between;
+margin-right: 6%;
+margin-left: 6%;
+}
+.sneakers2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 14%;
+    margin-left: 20%;
+}
